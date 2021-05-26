@@ -31,11 +31,8 @@ void* increaseCounter(){
 void* monitorCounter(){
     //Needs to check the counter every 3 seconds and lock it if it can.  If the counter is locked, increase missed by 1
     //print out the coutner if it can, print misses when it exits
-
-
-    while (time(NULL) > time_to_run){
+    while (time(NULL) < time_to_run){
         sleep(3);
-        printf("Foo");
         int lockStatus = pthread_mutex_trylock(&mutex);
         printf("The status is: %d\n", lockStatus);
         if(lockStatus == 0){
