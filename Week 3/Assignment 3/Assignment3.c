@@ -108,7 +108,7 @@ void readFromBuffer(int size){
 }
 
 int main(int argc, char const *argv[]) {
-    pthread_t pid;
+    pid_t pid;
     inputBuffer =  (struct CIRCULAR_BUFFER*)mmap(0, sizeof(inputBuffer), PROT_READ|PROT_WRITE, MAP_SHARED|MAP_ANONYMOUS, -1,0);
     inputBuffer->max = 25;
     inputBuffer->tail = 0;
