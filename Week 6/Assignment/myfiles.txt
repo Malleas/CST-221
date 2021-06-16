@@ -1,0 +1,7 @@
+total 20
+-rw-rw-r-- 1 matt matt   0 Jun 15 18:47 myfiles.txt
+-rwxrwxrwx 1 matt matt 103 Jun 15 15:19 test1.sh
+-rwxrwxrwx 1 matt matt 411 Jun 15 17:02 test2.sh
+-rwxrwxrwx 1 matt matt  89 Jun 15 18:31 test3.sh
+-rwxrwxrwx 1 matt matt 175 Jun 15 18:35 test4.sh
+-rwxrwxrwx 1 matt matt  31 Jun 15 18:41 test5.sh
